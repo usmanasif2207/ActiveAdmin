@@ -1,0 +1,5 @@
+<% @products.each do |product| %>
+<h2><%= product.name %></h2>
+<h2><%= product.price %></h2>
+<%= link_to "Show Item", product %>
+<% end %>
